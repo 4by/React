@@ -1,0 +1,38 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true,
+        "jest":true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "airbnb"
+    ],
+    "overrides": [
+        {
+          "files": ["*.jsx", "*.js"]
+        }
+      ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 13
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "react/function-component-definition": "off",
+        //чтобы я обьявлял функцию как хочу
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+         // чтобы не требовало'import React' в файлах
+        "react/react-in-jsx-scope": "off",
+         // чтобы запускало jsx 
+         "jsx-a11y/alt-text": "off",
+         //чтобы не подписывать изображения 
+         "react/prop-types": "off"
+         //выдает ошибку с пропс, с которой надо разобраться
+    }
+}
