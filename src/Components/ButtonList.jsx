@@ -20,14 +20,12 @@ font-size: 32px;
   }  
 `;
 
-function ButtonList() {
-  return (
-    <ThemeProvider theme={theme}>
-      <GlobalStyle />
-      <CustomBut>About</CustomBut>
-      <ThemeDarkBut>About</ThemeDarkBut>
-    </ThemeProvider>
-  );
-}
+const ButtonList = () => (
+  <ThemeProvider theme={theme}>
+    <GlobalStyle />
+    <CustomBut>About</CustomBut>
+    <ThemeDarkBut>About</ThemeDarkBut>
+  </ThemeProvider>
+);
 
 export default ButtonList;
