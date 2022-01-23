@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { ThemeProvider, createGlobalStyle } from 'styled-components';
 import { CustomBut, ThemeDarkBut } from '../styles/Buttons';
 

@@ -1,3 +1,5 @@
+import React from 'react';
+
 import {
   Button, Container, Form, FormGroup, FormLabel, FormText, FormControl, FormCheck,
 } from 'react-bootstrap';

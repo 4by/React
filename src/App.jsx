@@ -1,5 +1,5 @@
+import React from 'react';
 import NavRouter from './Components/NavRouter';
-
 import NavBar from './Components/NavBar';
 
 const App = () => (

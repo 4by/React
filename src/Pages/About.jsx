@@ -1,11 +1,13 @@
+import React from 'react';
+
 import {
   Container, Nav, Tab, Row, Col,
 } from 'react-bootstrap';
-import Img1 from '../assets/img1.jpeg';
-import Img2 from '../assets/img2.jpeg';
-import Img3 from '../assets/img3.jpeg';
-import Img4 from '../assets/img4.jpeg';
-import Img5 from '../assets/img5.jpeg';
+import Img1 from '../assets/img1.jpg';
+import Img2 from '../assets/img2.jpg';
+import Img3 from '../assets/img3.jpg';
+import Img4 from '../assets/img4.jpg';
+import Img5 from '../assets/img5.jpg';
 
 const About = () => (
   <Container>

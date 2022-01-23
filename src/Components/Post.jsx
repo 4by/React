@@ -1,4 +1,6 @@
-import Logo from '../assets/js.webp';
+import React from 'react';
+
+import Logo from '../assets/js.jpg';
 
 const Post = ({ num }) => (
   <div className="m-5 d-flex align-items-center">

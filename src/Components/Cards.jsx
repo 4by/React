@@ -1,9 +1,11 @@
+import React from 'react';
+
 import {
   Container, CardGroup, Card, CardImg, Button as BootstrapBut,
 } from 'react-bootstrap';
-import Img6 from '../assets/img6.jpeg';
+import Img6 from '../assets/img6.jpg';
 import Img7 from '../assets/img7.jpg';
-import Img8 from '../assets/img8.jpeg';
+import Img8 from '../assets/img8.jpg';
 import ButtonList from './ButtonList';
 
 const Cards = () => (

@@ -1,3 +1,5 @@
+import React from 'react';
+
 import Carousel from 'react-bootstrap/Carousel';
 import forestImg from '../assets/forest.jpg';
 import dforestImg from '../assets/dforest.jpg';
