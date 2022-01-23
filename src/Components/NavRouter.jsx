@@ -8,8 +8,6 @@ import Blog from '../Pages/Blog';
 import Contacts from '../Pages/Contacts';
 
 function NavRouter() {
-  //  РАБОТА BOOTSTRAP
-
   return (
     <Router>
       <Routes>

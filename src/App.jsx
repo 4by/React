@@ -2,15 +2,17 @@ import React from 'react';
 import NavRouter from './Components/NavRouter';
 import NavBar from './Components/NavBar';
 
-const App = () => (
-  <>
-    <NavBar />
-    {/* РАБОТА BOOTSTRAP */}
+function App() {
+  return (
 
-    <NavRouter />
-    {/*  РАБОТА REACTROUTER */}
-  </>
+    <>
+      <NavBar />
+      {/* РАБОТА BOOTSTRAP */}
 
-);
+      <NavRouter />
+      {/*  РАБОТА REACTROUTER */}
+    </>
+  );
+}
 
 export default App;
