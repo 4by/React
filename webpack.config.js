@@ -132,26 +132,9 @@ module.exports = {
         use: cssLoaders(),
       },
       {
-        test: /\.less$/,
-        use: cssLoaders('less-loader'),
-      },
-
-      {
-        test: /\.(sass|scss)$/,
-        use: cssLoaders('sass-loader'),
-      },
-      {
         // файлы (здесь форматы картинок, шрифтов) загрузили не через лоадер, а способом с вебпак5
         test: /\.(png|jpg|svg|gif|ttf|woff|woff2|eot)$/,
         type: 'asset/resource',
-      },
-      {
-        test: /\.(xml)$/,
-        use: ['xml-loader'],
-      },
-      {
-        test: /\.(csv)$/,
-        use: ['csv-loader'],
       },
       {
         test: /\.m?js$/,
