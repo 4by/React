@@ -8,7 +8,7 @@ import Img7 from '../assets/img7.jpg';
 import Img8 from '../assets/img8.jpg';
 import ButtonList from './ButtonList';
 
-const Cards = () => (
+const CardsPack1 = () => (
   <Container>
     <h2 className="text-center m-4">Our team</h2>
     <CardGroup className="m-4">
@@ -43,4 +43,4 @@ const Cards = () => (
   </Container>
 );
 
-export default Cards;
+export default CardsPack1;

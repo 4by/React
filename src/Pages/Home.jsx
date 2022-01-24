@@ -1,13 +1,13 @@
 import React from 'react';
 
 import CarouselBox from '../Components/CarouselBox';
-import Cards from '../Components/Cards';
+import CardsPack1 from '../Components/CardsPack1';
 
 const Home = () => (
 
   <>
     <CarouselBox />
-    <Cards />
+    <CardsPack1 />
   </>
 );
 
