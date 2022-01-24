@@ -98,7 +98,7 @@ module.exports = {
   entry: {
     // помимо основного файла для того, чтобы бейбл видел новые возможности
     // также запускаем полифилл для babble (см.документацию babble)
-    main: ['@babel/polyfill', './index.js'],
+    main: ['@babel/polyfill', './index.jsx'],
   },
   // как преобразуется входящий файл
   output: {
@@ -156,8 +156,7 @@ module.exports = {
       {
         test: /\.m?js$/,
         exclude: /node_modules/,
-        // ...
-        use: jsLoaders('@babel/preset-react'),
+        use: jsLoaders(),
       },
       {
         test: /\.m?jsx$/,

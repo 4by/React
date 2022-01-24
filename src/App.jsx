@@ -4,13 +4,9 @@ import NavBar from './Components/NavBar';
 
 function App() {
   return (
-
     <>
       <NavBar />
-      {/* РАБОТА BOOTSTRAP */}
-
       <NavRouter />
-      {/*  РАБОТА REACTROUTER */}
     </>
   );
 }

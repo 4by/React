@@ -4,7 +4,6 @@ import CarouselBox from '../Components/CarouselBox';
 import CardsPack1 from '../Components/CardsPack1';
 
 const Home = () => (
-
   <>
     <CarouselBox />
     <CardsPack1 />
