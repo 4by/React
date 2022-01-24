@@ -2,11 +2,12 @@ import React from 'react';
 
 import { Container, Row, Col } from 'react-bootstrap';
 import Post from '../Components/Post';
-import CardsPack2 from '../Components/CardsPack2';
+import { CardGroup2 } from '../Components/CardGroups';
 
 const Blog = () => (
   <Container>
     <Row>
+
       <Col md="9">
         <Post num="1" />
         <Post num="2" />
@@ -15,7 +16,8 @@ const Blog = () => (
       </Col>
 
       <Col md="3">
-        <CardsPack2 />
+        <h5 className="text-center mt-5">Categories</h5>
+        <CardGroup2 />
       </Col>
 
     </Row>
